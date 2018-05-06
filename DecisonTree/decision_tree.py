@@ -25,7 +25,7 @@ print(featureList)
 vec = DictVectorizer()
 dumpyX = vec.fit_transform(featureList).toarray()
 
-#print("dumpyX: " + str(dumpyX))
+print("dumpyX: " + str(dumpyX))
 #print(vec.get_feature_names())
 #print("labelList: " + str(labelList))
 

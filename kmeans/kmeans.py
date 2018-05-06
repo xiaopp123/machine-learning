@@ -24,7 +24,7 @@ def kmeans(X, k, maxIt):
         print("iteration:  ", iterations)
         print("dataSet:   ", dataSet)
         print("centroids:   ", centroids)
-        
+
         oldCentroids = np.copy(centroids)
         iterations += 1
 
@@ -71,6 +71,8 @@ x2 = np.array([2, 1])
 x3 = np.array([4, 3])
 x4 = np.array([5, 4])
 testX = np.vstack((x1, x2, x3, x4))
+import ipdb
+ipdb.set_trace()
 
 result = kmeans(testX, 2, 10)
 print("final result:", result)

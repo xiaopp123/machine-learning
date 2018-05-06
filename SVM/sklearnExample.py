@@ -48,5 +48,3 @@ pl.scatter(X[:, 0], X[:, 1], c = Y, cmap=pl.cm.Paired)
 
 pl.axis('tight')
 pl.show()
-
-
